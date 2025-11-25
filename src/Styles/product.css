@@ -1,0 +1,33 @@
+.allproducts {
+    background-image: url(../img//about/banner.png);
+    background-size: cover;
+    height: 50vh;
+    position: relative;
+}
+
+.allproducts .text {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin: 10px 10px;
+    padding: 10px;
+    color: white;
+}
+
+table {
+    text-align: center;
+}
+
+table tbody img {
+    width: 100px;
+    height: 100px;
+}
+
+table tbody i.delete {
+    cursor: pointer;
+    color: red;
+    font-size: 20px;
+}

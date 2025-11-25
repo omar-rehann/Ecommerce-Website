@@ -1,0 +1,27 @@
+.aboutt {
+    background-image: url(../img//about/banner.png);
+    background-size: cover;
+    height: 50vh;
+    position: relative;
+}
+
+.aboutt .backk {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin: 10px 10px;
+    padding: 10px;
+    color: white;
+}
+
+video {
+    width: 300px;
+    height: 300px;
+    margin: 10px 10px;
+    width: 90%;
+    margin: 10px auto;
+    border-radius: 10px;
+}

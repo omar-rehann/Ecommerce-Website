@@ -1,0 +1,9 @@
+.cards {
+    margin: 20px;
+    transition: 2s;
+}
+
+.cards:hover {
+    transform: translateY(-20px);
+    cursor: pointer;
+}

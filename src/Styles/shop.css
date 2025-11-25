@@ -1,0 +1,17 @@
+.background {
+    background-image: url(../img//banner/b1.jpg);
+    background-size: cover;
+    height: 70vh;
+    position: relative;
+}
+
+.background .text {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    padding: 10px;
+}

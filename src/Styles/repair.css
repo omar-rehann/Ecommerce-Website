@@ -1,0 +1,27 @@
+.repair {
+    background-image: url(../img/banner/b2.jpg);
+    background-size: cover;
+    height: 50vh;
+    position: relative;
+}
+
+.repair .continer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.repair .continer button {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
