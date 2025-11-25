@@ -13,10 +13,12 @@ import Footer from "./AllComponents/footer";
 function App() {
   return (
     <BrowserRouter>
-      <Navbar />
+    <div className="app">
+       <Navbar />
 
       <Routes>
-        <Route path="/" element={<Home/>} />
+           <Route path="*" element={<Home />} />
+          <Route path="/home" element={<Home />} />
         <Route path="/shop" element={<Shopnav/>} />
         <Route path="/about" element={<Abouts/>} />
         <Route path="/blog" element={<Blogg/>} />
@@ -29,9 +31,13 @@ function App() {
 
 
 
+
       </Routes>
 
       <Footer />
+
+    </div>
+     
     </BrowserRouter>
   );
 }

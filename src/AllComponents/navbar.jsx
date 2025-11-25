@@ -21,7 +21,7 @@ function Navbar(){
                     <div className={`links ${IsActive ? "active" : ""}`}>
                 <ul>
                     <li>
-                         <Link to="/">Home</Link>
+                         <Link to="/home">Home</Link>
 
 
 
