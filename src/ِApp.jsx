@@ -12,7 +12,7 @@ import Footer from "./AllComponents/footer";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/Ecommerce-Website">
     <div className="app">
        <Navbar />
 
