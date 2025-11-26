@@ -8,6 +8,9 @@ import { Link } from "react-router-dom";
 
 function Navbar(){
     const [IsActive,setactive]=useState(false);
+    function scrolly(){
+        window.scrollY=0;
+    }
 
     return(
         <>
@@ -21,29 +24,29 @@ function Navbar(){
                     <div className={`links ${IsActive ? "active" : ""}`}>
                 <ul>
                     <li>
-                         <Link to="/home">Home</Link>
+                         <Link to="/home" onClick={() => window.scrollTo(0, 0)}>Home</Link>
 
 
 
                     </li>
                     <li>
-                                                  <Link to="/shop">Shop</Link>
+                                                  <Link to="/shop" onClick={() => window.scrollTo(0, 0)}>Shop</Link>
 
 
                     </li>
                     <li>
-                                                  <Link to="/blog">Blog</Link>
+                                                  <Link to="/blog" onClick={() => window.scrollTo(0, 0)}>Blog</Link>
 
                     </li>
                     <li>
-                                                  <Link to="/about">About</Link>
+                                                  <Link to="/about" onClick={() => window.scrollTo(0, 0)}>About</Link>
 
                     </li>
                     <li>
-                                    <Link to="/contact">Contact </Link>
+                                    <Link to="/contact" onClick={() => window.scrollTo(0, 0)}>Contact </Link>
                     </li>
                     <li>
-                             <Link to="/login">Login </Link>
+                             <Link to="/login" >Login </Link>
 
                     </li>
                     <li>
